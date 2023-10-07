@@ -106,6 +106,9 @@ div.extra{
     color: white;
     background-color: #002e15;
 }
+.extra ul{
+    columns: 2;
+}
 .extra02 > p{
     text-indent: 1em;
 }
