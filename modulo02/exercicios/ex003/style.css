@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* 
+    MEDIDAS ABSOLUTAS
+    cm, mm, in, px, pt, pc
+    
+    MEDIDAS RELATIVAS
+    em, ex, rem, Vw, Vh, %
+    */
+    font-size: 1em;
+
+}
+/*
+shorthand font
+font-style -> font-weight -> font-size -> font-family
+*/
+h1 {
+    font: italic bolder 3em arial;
+}
