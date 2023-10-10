@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+:root{
+    --fonte-01: 'Passion One', sans-serif;
+    --fonte-02:  'Sriracha', cursive;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: black fixed;
+    color: white;
+    height: 226px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0;
+}
+nav{
+    text-align: center;
+}
+nav h1{
+ 
+    font:  400 109px var(--fonte-01) ;
+    transform: scale(1.2);
+}
+
+nav p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline 2px;
+}
+section{
+    padding: 60px 0 0 30px;
+}
+section p{
+    font: 43px var(--fonte-02);
+    padding: 5px 3px;
+}
+section#verso01, #verso04, #verso07{
+    margin: 0 0 150px 0;
+}
+section#verso02{
+    background: right center url("../imagens/background001.jpg") no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    padding: 40px 0 40px 40px;
+    align-items: center;
+    box-shadow: inset 2px -1px 20px 3px black;
+}
+#verso02 article{
+    background-color: #0000005c;
+    padding: 4px;
+    color: white;
+    text-shadow: 1px 2px 0px black;
+}
+#verso02 p{
+    padding: 10px 0;
+}
+section#verso05{
+    background: left top url("../imagens/background002.jpg") no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    padding: 40px 0 40px 30px;
+    align-items: center;
+    box-shadow: inset 2px -1px 20px 3px black;
+}
+#verso05 article{
+    background-color: #00000080;
+    padding: 4px;
+    color: white;
+    text-shadow: 1px 2px 0px black;
+}
+footer{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 13px 0;
+    text-align: center;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline 2px;
+}
+
+@media screen and (max-width: 480px) {
+
+    section{
+        padding: 20px 0 0 30px !important;
+    }
+    section#verso01, #verso04, #verso07{
+        margin-bottom: 60px !important;
+    }
+    section#verso02, section#verso05{
+        min-height: 0;
+        box-shadow: inset 1px -1px 20px 0px black !important;
+        padding: 50px 0 50px 30px;
+    }
+
+    section p{
+        font-size: 13px;
+        padding: 4px !important;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    section p{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    section p{
+        font-size: 30px;
+    }
+}
+@media screen and  (min-width: 1025px) and (max-width: 1200px) {
+    section p{
+        font-size: 35px;
+    }
+}
