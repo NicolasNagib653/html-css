@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas grandes</title>
     <style>
+        
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
@@ -19,12 +21,24 @@
             background-color: lightgray;
             border: 1px solid black;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            
+        }
         td,th{
             border: 1px solid black;
             padding: 10px;
         }
         .num{
             text-align: end;
+        }
+        tbody > tr:nth-child(odd){/* 2n-1 ou odd = ímpar*/
+            background-color: white;
+        }
+        tbody > tr:nth-child(even){/*2n ou even = par*/
+            background-color: lightgray;
         }
         thead,tfoot{
             background-color: gray;
@@ -170,5 +184,45 @@
             <td class="num"><strong>203.062.512</strong>
         </tfoot>
     </table>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+    </p>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ab modi impedit nisi velit architecto quo voluptates porro consequatur, odit quod exercitationem ea aut tempore magnam est quas magni et!
+    </p>
 </body>
 </html>
