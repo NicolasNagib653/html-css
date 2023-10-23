@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Insira seu nome</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="iemail">Insira seu email</label>
+                <input type="email" name="email" id="iemail">
+            </p>
+            <p>
+                <label for="itel">Insira seu telefone</label>
+                <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\) \d{4,5}-\d{4}$">
+            </p>
+        </fieldset>
+        <!--Estudar mais sobre RegEx-->
+        <p><input type="submit" value="enviar">
+        <input type="reset" value="limpar"></p>
+    </form>
+</body>
+</html>
