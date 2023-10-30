@@ -23,7 +23,7 @@ grandes telas: acima de 1200px
     main{
         border: 2px solid black;
         width: 90vw;
-        
+
     }
 
     main::after{
@@ -48,7 +48,7 @@ grandes telas: acima de 1200px
     img#tablet{ display: block;}
 
 }
-@media screen and (min-width: 993px) and (max-width: 1200px) { /*desktop*/
+@media screen and (min-width: 993px) and (max-width: 1366px) { /*desktop*/
 
     body{
         background-image: url(../imagens/back-pc.jpg);
@@ -58,7 +58,7 @@ grandes telas: acima de 1200px
     img#pc{ display: block;}
 
 }
-@media screen and (min-width: 1201px) { /*telas grandes*/
+@media screen and (min-width: 1367px) { /*telas grandes*/
 
     body{
         background-image: url(../imagens/back-tv.jpg);
