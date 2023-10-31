@@ -41,6 +41,12 @@ i#burguer:hover{
 
 menu{
     display: none;
+    transition: ease-in-out 300ms all;
+
+}
+
+.activate{
+    transition: 600ms ease-in-out all;
 }
 
 menu > ul{
